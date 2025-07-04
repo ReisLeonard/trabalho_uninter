@@ -1,0 +1,111 @@
+/* aqui fica um estilo geral*/
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;                      
+    padding: 0;                     
+    background-color: #f9f9f9;      
+    color: #333;                    
+}
+
+/* menu que tem em todas as páginas */
+nav {
+    background-color: #004080;      
+    padding: 10px 0;                
+    position: sticky;               
+    top: 0;                        
+    z-index: 1000;                 
+}
+
+/* menu alinhado horizontal*/
+nav ul {
+    list-style: none;              
+    display: flex;                 
+    justify-content: center;       
+    padding: 0;                    
+    margin: 0;                     
+}
+
+/* Espaço entre os itens do menu */
+nav ul li {
+    margin: 0 15px;                
+}
+/* Links do menu*/
+nav ul li a {
+    color: white;                  
+    text-decoration: none;         
+    font-weight: bold;             
+}
+/* Container */
+.container {
+    max-width: 800px;              
+    line-height: 1.6;             
+    margin: 20px auto;       
+    padding: 0 15px;      
+    font-size: 18px;
+}
+
+
+
+/* melhorar o container*/
+form input, form textarea {
+    width: 100%; 
+    padding: 10px;   
+    margin-bottom: 10px;          
+    border: 1px solid #aaa;       
+    border-radius: 4px;           
+}
+
+/* Botão do formulário no contato */
+form button {
+    padding: 10px 20px;  
+    background-color: #004080;   
+    color: white; 
+    border: none;    
+    border-radius: 4px;   
+    cursor: pointer;   
+}
+
+
+
+/* ajuste na imagem sobre_mim */
+.foto-perfil {
+  width: 300px;   
+  height: 300px;
+  border-radius: 50%; 
+  display: block;    
+  margin: 20px auto;   
+  object-fit: cover;   
+  border: 3px solid #004080; 
+}
+
+/* utilizo para centralizar os titulos*/
+h1, h2 {
+  text-align: center;
+}
+
+/* para deixar mais evidente as informações e deixar mais organizado o site*/
+.container {
+  flex: 1;                      
+  max-width: 800px;
+  margin: 40px auto;           
+  padding: 20px;                 
+  background-color: white;      
+  border-radius: 10px;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+/* ajustes na imagem da BIG MASTER */
+.imagem-formacao {
+  width: 300px;    
+  height: 300px;
+  border-radius: 50%; 
+  display: block;   
+  margin: 20px auto;          
+  object-fit: cover;             
+  border: 3px solid #004080;   
+}
+/*deixando centralizada a imagem da uniter*/
+.formacao_imagem {
+  display: block;       
+  margin: 20px auto;          
+}
